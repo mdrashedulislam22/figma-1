@@ -1,0 +1,137 @@
+/* common css start her */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1110px;
+    margin: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'PT Sans', sans-serif;
+}
+/* common css end here */
+/* navigation start here */
+#header div >.row{
+    justify-content: space-between;
+    align-items: center;
+}
+#header ul li{
+    padding: 13px 21px;
+    
+}
+#header ul li a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500px;
+    text-transform: capitalize;
+    color: #353535;  
+    
+}
+#header ul li:hover a{
+    border-bottom: 1px solid #353535;
+    width: 100%; 
+    transition: 0.5s;
+}
+/* navigation end here */
+/* section arif start here */
+#arif .content{
+    width: 60%;
+}
+#arif .container .img >img{
+   width: 400px;
+   
+    transform: translateX(7em);
+}
+#arif .content h5{
+font-size: 24px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400px;
+color: #353535;
+}
+#arif .content h1{
+font-size: 64px;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+color: #353535;
+}
+#arif .content p{
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400px;
+color: #353535;
+}
+#arif .content span >a{
+    padding: 15px 19px;
+    border: 1px solid #000000 ;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.5);
+    margin-left: 15px;
+    color: #353535;
+    margin-top: 83px;
+    display: inline-block;
+}
+#arif .content span >:hover{
+    color: #F5F5F5;
+    background-color: #FFCC00;
+}
+#arif .container .img{
+    position: relative;
+}
+#arif .container div .profile{
+    width: 200px;
+    height: 166px;
+    background-color: #F5F5F5;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+#arif .container div .profile >img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    
+}
+#arif .container div .profile p{
+    color: #7A7A7A;
+}
+
+#arif .container div .ul-d{
+    position: absolute;
+    top: 120px;
+    left: 0;
+   
+   
+    display: block;
+   
+}
+#arif .container div  .user{
+    position: absolute;
+    top: 20px;
+    right: 0;
+   
+   
+    display: block;
+    
+}
+/* section arif start here */
